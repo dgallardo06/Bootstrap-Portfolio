@@ -25,18 +25,17 @@ a{
 	font-size: 24px;
 	font-weight: bold;
 	text-align: center;
-	margin-left: 105px;
+/*	margin-left: 105px;*/
 	height: 80px;
-	padding-top: 25px;
+	padding: 25px 10px;
 }
 
-.navbar-nav {
+/*.navbar-nav {
 	margin-right: 28%;
-}
+}*/
 
-.nav-item {
-	font-size: 15px;
-	margin: 35px 10px 0px 10px;
+.navbar-toggler-icon {
+	background: gray;
 }
 
 section, aside {
@@ -74,6 +73,7 @@ p {
 
 aside {
 	height: 20%;
+	margin-bottom: 20px;
 }
 .social {
 	margin: 25px;
@@ -109,6 +109,9 @@ form {
 
 /***Portfolio***/
 
+.portfolio {
+	margin-bottom: 20px;
+}
 .portpic {
 	height: 40%;
 }
@@ -116,7 +119,8 @@ figcaption {
 	background-color: #4aaaa5;
 	color: white;
 	height: 60px;
-	width: 96%;
+	width: 91%;
 	position: relative;
 	bottom: 70px;
+	text-align: center;
 }
