@@ -100,3 +100,23 @@ footer {
 	left: 0;
 	bottom: 0;
 }
+
+/*****Contact****/
+
+form {
+	margin-bottom: 20px;
+}
+
+/***Portfolio***/
+
+.portpic {
+	height: 40%;
+}
+figcaption {
+	background-color: #4aaaa5;
+	color: white;
+	height: 60px;
+	width: 96%;
+	position: relative;
+	bottom: 70px;
+}
